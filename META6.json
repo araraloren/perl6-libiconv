@@ -1,0 +1,19 @@
+{
+    "perl"        : "6.c",
+    "name"        : "IConv",
+    "version"     : "0.0.1",
+    "description" : "Binding of libiconv for Perl 6.",
+    "depends"     : [],
+    "build-depends" : [],
+    "resources" : [],
+    "provides"    : {
+        "Net::FTPlib" : "lib/IConv.pm6"
+    },
+	"auth" : "github:araraloren",
+    "authors" : "Loren",
+    "source-url"  : "https://github.com/araraloren/perl6-iconv",
+    "support" : {
+        "bugtracker" : "https://github.com/araraloren/perl6-iconv/issues",
+        "source" : "https://github.com/araraloren/perl6-iconv"
+    }
+}

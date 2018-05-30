@@ -1,0 +1,39 @@
+= IConv
+:toc-title: contents
+
+Binding of https://www.gnu.org/savannah-checkout[libiconv] for Perl 6.
+
+== Examples
+
+A simple examples 
+
+[source, perl6]
+----------------------
+use IConv;
+
+my buf8 $buf1 .= new(< 7b 0a 20 20 20 20 22 70 65 72 >.map({ .parse-base(16) }));
+
+my IConv $iconv .= new(from => "utf8", to => "utf16be");
+
+my $buf2 = $iconv($buf1);
+
+$iconv.close();
+
+die "Wow BOM" if iconv($buf2, from => "utf16be", to => "utf8") != $buf1;
+----------------------
+
+== Document
+
+=== sub iconv(buf8 $buf, :$size = 1024, :$from!, :$to! --> buf8)
+
+See https://www.gnu.org/savannah-checkouts/gnu/libiconv/[document of libiconv]
+
+== Installation
+
+* install with zef
+
+    zef install IConv
+
+== License
+
+    The MIT Lincese (MIT).
