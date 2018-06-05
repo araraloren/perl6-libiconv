@@ -7,7 +7,7 @@
     "build-depends" : [],
     "resources" : [],
     "provides"    : {
-        "Net::FTPlib" : "lib/IConv.pm6"
+        "IConv" : "lib/IConv.pm6"
     },
 	"auth" : "github:araraloren",
     "authors" : "Loren",
