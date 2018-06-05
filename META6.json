@@ -1,7 +1,7 @@
 {
     "perl"        : "6.c",
     "name"        : "IConv",
-    "version"     : "0.0.1",
+    "version"     : "0.0.2",
     "description" : "Binding of libiconv for Perl 6.",
     "depends"     : [],
     "build-depends" : [],
