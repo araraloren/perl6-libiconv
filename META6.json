@@ -11,9 +11,9 @@
     },
 	"auth" : "github:araraloren",
     "authors" : "Loren",
-    "source-url"  : "https://github.com/araraloren/perl6-iconv",
+    "source-url"  : "https://github.com/araraloren/perl6-libiconv",
     "support" : {
-        "bugtracker" : "https://github.com/araraloren/perl6-iconv/issues",
-        "source" : "https://github.com/araraloren/perl6-iconv"
+        "bugtracker" : "https://github.com/araraloren/perl6-libiconv/issues",
+        "source" : "https://github.com/araraloren/perl6-libiconv"
     }
 }
